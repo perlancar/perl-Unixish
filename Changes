@@ -1,0 +1,11 @@
+Revision history for Unixish
+
+1.0.1   2012-07-21 (SHARYANTO)
+
+        No spec changes. Rename specification from Data-Unixish (now used for
+        the implementation) to Unixish (now only for specification).
+
+
+1.0.0   2012-07-13 (SHARYANTO)
+
+        First version.
