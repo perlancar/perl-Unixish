@@ -145,7 +145,7 @@ L<Log::Any>.
 
 =over 4
 
-=item * Text::Pipe (active: 2007 - now)
+=item * L<Text::Pipe> (active: 2007 - now)
 
 Similarly inspired by Unix pipes, OO. I didn't find this project before I
 started Unixish.
