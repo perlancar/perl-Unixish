@@ -1,5 +1,10 @@
 Revision history for Unixish
 
+1.0.2   2012-07-27 (SHARYANTO)
+
+        No spec changes. Mention similar project on CPAN: Text::Pipe.
+
+
 1.0.1   2012-07-21 (SHARYANTO)
 
         No spec changes. Rename specification from Data-Unixish (now used for
