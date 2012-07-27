@@ -141,4 +141,19 @@ L<Rinci> and L<Rinci::function>, another specification to leverage functions.
 
 L<Log::Any>.
 
+=head2 Similar projects on CPAN
+
+=over 4
+
+=item * Text::Pipe (active: 2007 - now)
+
+Similarly inspired by Unix pipes, OO. I didn't find this project before I
+started Unixish.
+
+Some of the differences: Text::Pipe is, as the name suggests, more
+text-oriented. It was created to unify text/template processing. Unixish on the
+other hand focuses on functions that can accept streams/arrays.
+
+=back
+
 =cut
