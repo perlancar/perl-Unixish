@@ -1,5 +1,10 @@
 Revision history for Unixish
 
+1.0.3   2013-04-06 (SHARYANTO)
+
+        No spec changes. Tweak some wordings.
+
+
 1.0.2   2012-07-27 (SHARYANTO)
 
         No spec changes. Mention similar project on CPAN: Text::Pipe.
