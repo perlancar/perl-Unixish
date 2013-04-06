@@ -92,7 +92,7 @@ Function SHOULD NOT slurp it in memory like this, unless necessary:
 Remember that in Perl 5 for() is not lazy, the stream might contain very large
 amount of data or is infinite.
 
-=item * Output should be written to C<$args{out}>
+=item * Output should be written (appended) to C<$args{out}>
 
 It is a "stream", usually actually a reference to array or a tied array.
 Function can append output as follows:
@@ -101,6 +101,11 @@ Function can append output as follows:
      ...
      push @{ $args{out} }, $res;
  }
+
+Note that assigning an array directly doesn't work the way you think:
+
+ # DOESN'T WORK
+ $args{out} = [1, 2, 3];
 
 =item * Error messages can be logged to Log::Any
 
