@@ -82,12 +82,15 @@ Function can iterate it as follows:
      ...
  }
 
-Function MUST NOT slurp it in memory like this (in Perl 5 for() is not lazy):
+Function SHOULD NOT slurp it in memory like this, unless necessary:
 
- # WRONG!
+ # CAUTION!
  for (@{ $args{in} }) {
      ...
  }
+
+Remember that in Perl 5 for() is not lazy, the stream might contain very large
+amount of data or is infinite.
 
 =item * Output should be written to C<$args{out}>
 
@@ -98,11 +101,6 @@ Function can append output as follows:
      ...
      push @{ $args{out} }, $res;
  }
-
-Function MUST NOT assign to $args{out} directly, e.g.:
-
- # WRONG!
- $args{out} = [1, 2, 3];
 
 =item * Error messages can be logged to Log::Any
 
