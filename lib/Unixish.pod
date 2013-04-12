@@ -150,9 +150,9 @@ L<Log::Any>.
 
 =head2 Similar projects on CPAN
 
-=over 4
+=over
 
-=item * L<Text::Pipe> (active: 2007 - now)
+=item * L<Text::Pipe> (2007-now)
 
 Similarly inspired by Unix pipes, OO. I didn't find this project before I
 started Unixish.
@@ -160,6 +160,13 @@ started Unixish.
 Some of the differences: Text::Pipe is, as the name suggests, more
 text-oriented. It was created to unify text/template processing. Unixish on the
 other hand focuses on functions that can accept streams/arrays.
+
+=item * B<Perl Power Tools> (1999-now)
+
+(Search for C<ppt> in CPAN).
+
+Actually not quite the same thing, but the end result is roughly the same for
+many text-oriented Unix utilities (like B<wc>, B<sum>, B<head>, B<tail>, etc).
 
 =back
 
