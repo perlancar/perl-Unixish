@@ -138,8 +138,7 @@ contains the Data::Unixish::date::date function.
 A further subpackaging is allowed, for example:
 B<Data::Unixish::English::count_syllables>.
 
-L<Data::Unixish::CmdLine> is a utility to access dux functions from command
-line.
+L<App::dux> is a utility to access dux functions via the command-line.
 
 
 =head1 SEE ALSO
