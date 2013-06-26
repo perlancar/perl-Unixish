@@ -120,8 +120,8 @@ the output stream unprocessed. A warning can be logged if needed.
 
 =back
 
-A well-written dux function can be transformed into a usual Unix command-line
-utility.
+A well-written dux function can be readily transformed into a usual Unix
+command-line utility.
 
 
 =head1 NAMESPACE ORGANIZATION
