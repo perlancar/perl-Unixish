@@ -115,8 +115,8 @@ Standard format for error message will be specified in the future.
 
 For example, the B<date> dux function accepts either an integer (assumed as Unix
 timestamp) or a L<DateTime> object. Other values like undef, an empty string, or
-other kinds of supported objects should not be processed and just passed to the
-output stream unprocessed. A warning can be logged if needed.
+other kinds of unsupported objects should not be processed and just passed to
+the output stream unprocessed. A warning can be logged if needed.
 
 =back
 
