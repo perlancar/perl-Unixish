@@ -39,8 +39,8 @@ In Unixish, programs translate to functions. Unixish is essentially a set of
 guidelines and tools on how to write such functions.
 
 The goal of the framework is to let users easily create functions that can be
-used as normal Perl functions operating on arrays, as well as functions that can
-become Unix command-line utilities.
+used as normal Perl functions operating on arrays and streams (filehandles), as
+well as functions that can become Unix command-line utilities.
 
 
 =head1 GLOSSARY
