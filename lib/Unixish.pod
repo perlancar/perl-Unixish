@@ -107,7 +107,7 @@ Note that assigning an array directly doesn't work the way you think:
  # DOESN'T WORK
  $args{out} = [1, 2, 3];
 
-=item * Error messages can be logged to Log::Any
+=item * Error messages can be logged to Log::ger
 
 Standard format for error message will be specified in the future.
 
@@ -145,7 +145,7 @@ L<App::dux> is a utility to access dux functions via the command-line.
 
 L<Rinci> and L<Rinci::function>, another specification to leverage functions.
 
-L<Log::Any>.
+L<Log::ger>.
 
 =head2 Similar projects on CPAN
 
